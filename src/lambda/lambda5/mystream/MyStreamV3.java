@@ -47,4 +47,8 @@ public class MyStreamV3<T> {
         return MyStreamV3.of(mappedList);
     }
 
+    public T getFirst(){
+        return internalList.get(0);
+    }
+
 }
